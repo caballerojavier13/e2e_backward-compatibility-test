@@ -8,7 +8,7 @@ chrome_data = {
     'name': 'Chrome',
     'min_version': 48,
     'max_version': 73,
-    'docker_image': 'jctesting/selenium_chrome',
+    'docker_image': 'caballerojavier13/selenium_chrome',
     'jenkins_job_path': ''
 }
 
@@ -16,11 +16,12 @@ firefox_data = {
     'name': 'Firefox',
     'min_version': 45,
     'max_version': 67,
-    'docker_image': 'jctesting/selenium_firefox',
+    'docker_image': 'caballerojavier13/selenium_firefox',
     'jenkins_job_path': ''
 }
 
 platforms = [chrome_data, firefox_data]
+
 
 def deploy_container(docker_image):
     p = Portainer(
