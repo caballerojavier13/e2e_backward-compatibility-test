@@ -151,7 +151,7 @@ The installation is recommended made by python virtual environments (Linux and M
 
  - `GITHUB_TOKEN`: [How to create a github access token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line)
 
-## Build Docker Images`
+## Build Docker Images
 
 Each Chrome and Firefox version is saved as a docker image version to make a easy reference.
 
